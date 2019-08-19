@@ -2,4 +2,4 @@
 Switch board for using on a analog pin
 
 
-![top-view](images/Taster_Shield_top.png)
+![top-view](Taster_Shield_top.png)
