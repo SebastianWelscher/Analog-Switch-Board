@@ -10,6 +10,16 @@ Switch board for using on a analog pin
 
 ## Code
 ```C++
+//Define Buttons
+#define btnRIGHT  0
+#define btnUP     1
+#define btnDOWN   2
+#define btnLEFT   3
+#define btnSELECT 4
+#define btnNONE   5
+```
+
+```C++
 int LCD_State_Machine_San::read_LCD_buttons()
 {
     adc_key_in = analogRead(0);
